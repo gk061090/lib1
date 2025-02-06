@@ -1,8 +1,4 @@
 const fnFromLib1 = () => {
-    const obj = {a: 1}
-
-    console.log(`lodash in lib1: get a from ${obj}`, _.get(obj, 'a'))
-
     console.log('fn from lib1')
 }
 
